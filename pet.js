@@ -27,7 +27,7 @@ if (!window.ruoyu_run) {
           setTimeout(ruoyu_send, 1000 * 60 * t);
         }
       };
-      ruoyu_send({ loop: false, msg: "开始修仙" });
+      ruoyu_send({ loop: false, msg: "修炼" });
       setTimeout(ruoyu_send, 1000 * 5);
     } else {
       alert("只允许输入数字，点击确定后页面自动刷新，请重新运行书签");
